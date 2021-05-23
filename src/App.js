@@ -41,7 +41,7 @@ fetchData= async()=>{
 const key="6fa19a6b840e2d8ede589918d1cd8946";
 
   
-const res=await axios.get("http://api.openweathermap.org/data/2.5/weather?",{params:{
+const res=await axios.get("https://api.openweathermap.org/data/2.5/weather?",{params:{
       q:this.state.search,
       appid:key
 
